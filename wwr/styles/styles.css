@@ -1,0 +1,81 @@
+:root {
+    --primary-color: #055a05;
+    --accent1-color: #264653;
+    --body-font: "Arial", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+/* AUDIT REQUIREMENT: main rule */
+main {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+/* AUDIT REQUIREMENT: nav rules */
+nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+nav a {
+    color: var(--primary-color);
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+/* AUDIT REQUIREMENT: p rule */
+p {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+/* AUDIT REQUIREMENT: main img rule */
+main img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 2px 2px 5px #888;
+}
+
+h1 {
+    color: var(--accent1-color);
+}
+
+/* AUDIT REQUIREMENT: aside rules */
+aside {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    padding: 15px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* AUDIT REQUIREMENT: footer rules */
+footer {
+    margin-top: 20px;
+    border-top: 2px solid var(--primary-color);
+    text-align: center;
+    padding: 20px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
