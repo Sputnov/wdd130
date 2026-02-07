@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 130 | Joshua O. Ariyo</title>
+    <title>WWR | About Us - Joshua O. Ariyo</title>
     <meta name="description"
-      content="This is the WDD 130 About Us page for Joshua O. Ariyo, detailing the mission and history of the Whitewater Rafting Co project.">
+      content="About us page for Joshua O. Ariyo detailing the history and adventures of Whitewater Rafting Co.">
     <meta name="author" content="Joshua O. Ariyo">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
@@ -15,43 +15,68 @@
     <header>
         <img src="images/logo.png" alt="Rafting Site Logo">
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
     <main>
-        <h1>WDD 130 | Whitewater Rafting Co.</h1>
         <div class="hero">
             <img src="images/hero.png" alt="Rafting boat on river">
+            <h1>White Water Rafting</h1>
             <article>
                 <img src="images/profile.png" alt="Joshua O. Ariyo Profile Image">
-                <p>
-                    My name is Joshua O. Ariyo. I am a student at BYU-Idaho studying Software
-                    Development.
-                    I enjoy learning web technologies and building interactive applications.
-                </p>
+                <p>My name is Joshua O. Ariyo. I enjoy learning web technologies and building
+                    interactive applications.</p>
             </article>
         </div>
 
-        <section>
+        <section class="history">
             <h2>History</h2>
-            <p>Founded in 2024, our company started with a single raft and a dream.</p>
+            <div class="history-container">
+                <p>Founded in 2024, our company started with a single raft and a dream.</p>
+                <img src="images/history.png" alt="Historical rafting photo">
+                <p>We provide safe, thrilling, and memorable rafting experiences for all skill
+                    levels.</p>
+            </div>
+        </section>
+
+        <section class="adventures">
+            <h2>Adventure Awaits You</h2>
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/adventure1.png" alt="Diablo Rapids">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure2.png" alt="Big Mallard Rapids">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/hero.png" alt="Half Day Trip">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure4.png" alt="Salmon River">
+                    <figcaption>Salmon River</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure5.png" alt="Sunset Trip">
+                    <figcaption>Full Day Thrill</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
 
-    <aside>
-        <h2>Adventure Awaits</h2>
-        <img src="images/happy-clients.png" alt="Profile Image">
-    </aside>
-
     <footer>
         <p>&copy; 2026 Whitewater Rafting Co. | Joshua O. Ariyo</p>
-        <div class="socialmedia">
+        <nav class="socialmedia">
             <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
             <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
             <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
-        </div>
+        </nav>
     </footer>
 </body>
 
